@@ -4,8 +4,10 @@ This was a project done for the **Getting and Cleaning Data** Coursera course.
 
 ## Preparation
 
-Set working directory to "UCI HAR Dataset" prior to running the code.
+Before you do anything, open the **run_analysis.R** file in RStudio and run the code.
 
+Now set the working directory to "UCI HAR Dataset" prior to running the code.
+	
 Alternatively, run **downloadData()** in the console and it should download the necessary files and set the working directory for you.
 
 ## Running the Analysis
@@ -21,11 +23,10 @@ The steps the code takes are listed below.
 1. Gets all the necessary data.
 2. Adds column names to the relevant data
 3. Binds all the relevant data.
-4. Merges the data such that the activity numbers are changed to their
-5. respective activity names.
-6. Creates descriptive variable names.
-7. Gets only the columns with the relevant terms in it.
-8. Creates the tidy data and writes it to a file.
+4. Merges the data such that the activity numbers are changed to their respective activity names.
+5. Creates descriptive variable names.
+6. Gets only the columns with the relevant terms in it.
+7. Creates the tidy data and writes it to a file.
 
 ## Codebook
 
